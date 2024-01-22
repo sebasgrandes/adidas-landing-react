@@ -7,7 +7,7 @@ import PaginaProducto from "./pages/PaginaProducto";
 // las rutas relativas (./) no son correctas en react router, debes usar siempre las absolutas y dejar que el basename maneje la raiz del subdirectorio
 //
 const App = () => (
-    <Router basename="/proyectos">
+    <Router basename="/proyectos/adidas-landing-react">
         <Nav />
         <Routes>
             <Route path="/" element={<Inicio />} />

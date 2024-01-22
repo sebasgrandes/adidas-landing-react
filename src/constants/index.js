@@ -116,22 +116,22 @@ export const footerLinks = [
     {
         title: "Productos",
         links: [
-            { name: "Adidas Stylus X", link: "/producto" },
-            { name: "Adidas Modern Y", link: "/producto" },
-            { name: "Adidas Vibre Z", link: "/producto" },
-            { name: "Adidas All T", link: "/producto" },
-            { name: "Adidas Stylus Y", link: "/producto" },
-            { name: "Adidas Stylus Z", link: "/producto" },
+            { name: "Adidas Stylus X", link: "./producto" },
+            { name: "Adidas Modern Y", link: "./producto" },
+            { name: "Adidas Vibre Z", link: "./producto" },
+            { name: "Adidas All T", link: "./producto" },
+            { name: "Adidas Stylus Y", link: "./producto" },
+            { name: "Adidas Stylus Z", link: "./producto" },
         ],
     },
     {
         title: "Ayuda",
         links: [
-            { name: "Nosotros", link: "/producto" },
-            { name: "FAQs", link: "/producto" },
-            { name: "Cómo funciona", link: "/producto" },
-            { name: "Política de privacidad", link: "/producto" },
-            { name: "Política de pago", link: "/producto" },
+            { name: "Nosotros", link: "./producto" },
+            { name: "FAQs", link: "./producto" },
+            { name: "Cómo funciona", link: "./producto" },
+            { name: "Política de privacidad", link: "./producto" },
+            { name: "Política de pago", link: "./producto" },
         ],
     },
     {
