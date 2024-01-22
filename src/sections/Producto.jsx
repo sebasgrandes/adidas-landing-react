@@ -27,7 +27,7 @@ const Producto = () => {
                     </span>{" "}
                 </h1>
                 <p className="text-lg font-montserrat text-slate-gray leading-normal mt-6 mb-10 sm:max-w-lg">
-                    Las zapatillas Nike Stylus X combinan estilo y comodidad en
+                    Las zapatillas Adidas Stylus X combinan estilo y comodidad en
                     un diseño moderno y versátil, perfectas para un estilo de
                     vida activo y urbano.
                 </p>

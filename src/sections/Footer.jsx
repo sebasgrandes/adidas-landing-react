@@ -15,7 +15,7 @@ const Footer = () => {
                     </a>
                     <p className="font-montserrat text-white-400 text-base max-w-sm">
                         Obten zapatillas listas para la nueva temporada en tu
-                        tienda Nike más cercana. Encuentra tu talla perfecta en
+                        tienda de Adidas más cercana. Encuentra tu talla perfecta en
                         la tienda. Obten Descuentos.
                     </p>
                     <div className="flex gap-5">

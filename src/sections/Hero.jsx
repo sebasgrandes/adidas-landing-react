@@ -28,7 +28,7 @@ const Hero = () => {
                     X
                 </h1>
                 <p className="text-lg font-montserrat text-slate-gray leading-8 mt-6 mb-14 sm:max-w-sm">
-                    Descubre las elegantes novedades de Nike, la comodidad de
+                    Descubre las elegantes novedades de Adidas, la comodidad de
                     calidad y la innovación para tu vida activa.
                 </p>
                 <Boton label="Compra ahora" iconURL={arrowRight} />
