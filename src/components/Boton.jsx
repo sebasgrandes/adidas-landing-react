@@ -1,6 +1,6 @@
 const Boton = ({ label, iconURL, color, fullWidth }) => {
     return (
-        <a href="/producto">
+        <a href="./producto">
             <button
                 className={`rounded-full px-7 py-4 font-montserrat border text-lg leading-none flex flex-row items-center justify-center ${
                     color
