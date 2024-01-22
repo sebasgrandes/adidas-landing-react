@@ -1,12 +1,4 @@
-import {
-    Footer,
-    Producto,
-    OfertaEspecial,
-    ProductosPopulares,
-    ResenasClientes,
-    Servicios,
-    Suscribete,
-} from "../sections";
+import { Footer, Producto, ResenasClientes } from "../sections";
 
 const PaginaProducto = () => {
     return (

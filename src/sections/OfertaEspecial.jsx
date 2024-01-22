@@ -1,5 +1,5 @@
 import Boton from "../components/Boton";
-import { offer, shoe8 } from "../assets/images";
+import { offer } from "../assets/images";
 import { arrowRight } from "../assets/icons";
 
 const OfertaEspecial = () => {

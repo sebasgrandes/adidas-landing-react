@@ -1,6 +1,5 @@
 import { bigShoe1 } from "../assets/images";
 import Boton from "../components/Boton";
-import { statistics } from "../constants";
 
 const Producto = () => {
     return (
