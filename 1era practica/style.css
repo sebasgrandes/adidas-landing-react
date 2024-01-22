@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .componentePersonalizado {
+    @apply rounded-xl bg-white px-7 py-10 shadow-lg ring-1 ring-slate-900/5 dark:bg-gray-800;
+  }
+  .h3Personalizado {
+    @apply text-base font-medium tracking-tight text-slate-900 dark:text-white;
+  }
+}
