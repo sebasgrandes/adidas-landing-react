@@ -27,7 +27,6 @@ export const navLinks = [
     { href: "./#productos", label: "Productos" },
     { href: "./#nosotros", label: "Nosotros" },
     { href: "./#contactanos", label: "Contáctanos" },
-    { href: "./producto", label: "Producto" },
 ];
 
 export const shoes = [
@@ -116,28 +115,31 @@ export const footerLinks = [
     {
         title: "Productos",
         links: [
-            { name: "Adidas Stylus X", link: "./producto" },
-            { name: "Adidas Modern Y", link: "./producto" },
-            { name: "Adidas Vibre Z", link: "./producto" },
-            { name: "Adidas All T", link: "./producto" },
-            { name: "Adidas Stylus Y", link: "./producto" },
-            { name: "Adidas Stylus Z", link: "./producto" },
+            { name: "Adidas Stylus X", link: "/producto" },
+            { name: "Adidas Modern Y", link: "/producto" },
+            { name: "Adidas Vibre Z", link: "/producto" },
+            { name: "Adidas All T", link: "/producto" },
+            { name: "Adidas Stylus Y", link: "/producto" },
+            { name: "Adidas Stylus Z", link: "/producto" },
         ],
     },
     {
         title: "Ayuda",
         links: [
-            { name: "Nosotros", link: "./producto" },
-            { name: "FAQs", link: "./producto" },
-            { name: "Cómo funciona", link: "./producto" },
-            { name: "Política de privacidad", link: "./producto" },
-            { name: "Política de pago", link: "./producto" },
+            { name: "Nosotros", link: "/producto" },
+            { name: "FAQs", link: "/producto" },
+            { name: "Cómo funciona", link: "/producto" },
+            { name: "Política de privacidad", link: "/producto" },
+            { name: "Política de pago", link: "/producto" },
         ],
     },
     {
         title: "Contacto",
         links: [
-            { name: "cliente@adidas.com", link: "mailto:cliente@adidas.com" },
+            {
+                name: "hola@sebastiangrandes.com",
+                link: "mailto:hola@sebastiangrandes.com",
+            },
             { name: "+51 922 382 421", link: "tel:+51922382421" },
         ],
     },

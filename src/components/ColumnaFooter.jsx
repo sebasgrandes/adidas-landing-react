@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const ColumnaFooter = ({ title, links }) => {
     return (
         <div className="flex flex-col">
@@ -10,7 +12,7 @@ const ColumnaFooter = ({ title, links }) => {
                         className="mt-2 font-montserrat text-base leading-normal text-white-400 block hover:text-white"
                         key={linke.name}
                     >
-                        <a href={linke.link}>{linke.name}</a>
+                        <Link to={linke.link}>{linke.name}</Link>
                     </li>
                 ))}
             </ul>

@@ -2,12 +2,13 @@ import React from "react";
 import { navLinks } from "../constants";
 import { hamburger } from "../assets/icons";
 import { headerLogo } from "../assets/images";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
     return (
         <header className="absolute z-10 padding-x py-8 w-full">
             <nav className="flex flex-row items-center justify-between max-container">
-                <a href="./">
+                <a href="./#inicio">
                     <img
                         src={headerLogo}
                         alt="Logo-de-Adidas"
@@ -26,6 +27,14 @@ const Nav = () => {
                             </a>
                         </li>
                     ))}
+                    <Link to="/producto">
+                        <li
+                            key="producto"
+                            className="font-montserrat leading-normal text-lg text-slate-gray"
+                        >
+                            Producto
+                        </li>
+                    </Link>
                 </ul>
                 <div>
                     <img
